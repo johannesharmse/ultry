@@ -1,0 +1,27 @@
+/** Mapbox tooltip ************************************************************/
+
+.mapboxgl-popup-content {
+  color: black !important;
+  border-radius: 1px !important;
+  border-color: $primary !important;
+  border-style: solid !important;
+}
+
+.mapboxgl-popup {
+  transform:none !important;
+  top: 0 !important;
+  left: 0 !important;
+  background-color: $white !important;
+}
+
+.mapboxgl-popup-anchor-top .mapboxgl-popup-tip,
+.mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip,
+.mapboxgl-popup-anchor-center .mapboxgl-popup-tip,
+.mapboxgl-popup-anchor-left .mapboxgl-popup-tip,
+.mapboxgl-popup-anchor-right .mapboxgl-popup-tip,
+.mapboxgl-popup-anchor-bottom-right .mapboxgl-popup-tip,
+.mapboxgl-popup-anchor-bottom-left .mapboxgl-popup-tip,
+.mapboxgl-popup-anchor-top-right .mapboxgl-popup-tip, 
+.mapboxgl-popup-anchor-top-left .mapboxgl-popup-tip {
+  display:none !important;
+}
